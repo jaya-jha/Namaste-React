@@ -2,13 +2,13 @@
 # what is Emmet
 Emmet is a plugin which is used to write html and css code syntax using css like expression .This plugin we can install in visual studio code and improve our produtivity .It has lot of syntax where in a quick way you can write whole html and css .
 Example - div with li option type div>li.item$*5  it will generate below syntax
-<div>
+#<div>
   	<li class="item1"></li>
   	<li class="item2"></li>
   	<li class="item3"></li>
   	<li class="item4"></li>
   	<li class="item5"></li>
-</div>
+#</div>
 Library - Library has lot of inbuilt funtionality which a developer can use and make complex funtinality to work just a single call of funtion
 Framework - Its a platform which provides as a way how to start or build a project .
 React is called react as it react on browser as soon as code changes on backend .
