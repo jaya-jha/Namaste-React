@@ -13,7 +13,7 @@ Library - Library has lot of inbuilt funtionality which a developer can use and 
 Framework - Its a platform which provides as a way how to start or build a project .
 React is called react as it react on browser as soon as code changes on backend .
 Crossorigin In script Tag - when we are calling cdn links or request elements from different origin crossorgin attribute is used .It can be used in audio , video , image and on link.
-React - React is library which helps us to create elements , components .
+React - React is core library which helps us to create elements , components .
 React-Dom - To render react components in to browsers we need react dom which has methods like render which allow components to render in to browser.
 react.development.js - It is not minified file so it is used in development environment
 react.production.js- It is the minified version of the file which takes less time to load. 
