@@ -1,0 +1,34 @@
+NPM - <p>To deploy our react app we need lot of packages for this we need package manager NPM is managing same for us .Example - npm , yarn</p>
+Parcel - <p>To deploy react app on production we need something which can manage bundling , minification, optimization, 
+dependencies of our react app for that we need webpack which is called parcel tehre are lot more parcel is available in market like parcel , webpack.
+parcel is managing all dependencies for us in our react appliation </p>
+parcel-cache -<p> when we do init the react app and everytime we build the application parcel-cache folder is getting created which stored all the change versions
+ when we build the file as soon as we save the change in browser the change is it reflecting to make the loading of the page faster parcel-cache is getting created.</p>
+ npx- <p>Execute entry point with parcel for that we need npx , excute the app we need npx.</p>
+ dependencies -<p> All the packages that project need is called dependencies which is globally needed .</p>
+ devDependencies - <p>npm install -D parcel - will install all the packages which is require for our development for project  </p>
+ package-lock.json - <p>It has exact version which we require for our project never put this file in gitignore we should not modify 
+    this file as it has the exact version of dependencies which we require on production</p>
+ package.json - <p>It has parcel version mentioned which we require for development if caret is there it will automaticaly update to latest version  </p> 
+Caret -  <p>It is present in package.json file which represent the compatible version of parcel </p>
+Tild - <p>It is present in package.json file which represent version number and upgrades to major versions automaticaly</p>
+Hot Module Replacement - <p>When we do code changes browser automaticaly reflects the changes which is due to parcel .
+    It uses internally Hot module Replacement which uses File watcher algorithm </p> 
+    <p>Parcel Features </p>
+    <ul>
+        <li>Bundling - bundles all the css and jss file </li>
+        <li>Minification - removes unwanted spaces from js and css files</li>
+        <li>HMR - immediately reflects the changes on browser as soon as we do changes in code </li>
+        <li> Image optimization - Media and video files are heaviest files in our application parcel internally manages its optimization</li>
+        <li>Cleaning code - It internally uses mechanism to clean our code and give us compressed version of file on production build</li>
+    </ul>
+    gitignore - <p>It is the file where we mention all the files name which we do not require on production server it is specific to development machine.<br> 
+        Files specific to development machine we add it here files related to production server we donot add it here .basically files to commit we donot add it here.</p>
+node_modules - <p> All packages present in node_modules which is required by app and parcel its kind of database for npm .Its not good idea to puch node_modules because its huge in size </p>
+dist folder - production ready minified files get created after production build which is in dist folder
+browserlist - To make our app to work on older versions of browsers we need browserlist where we specify the browser names 
+Tree Shaking - <p> Removal of dead code in javascript context is called tree shaking  it depends on import and export staments  to detect 
+    if code modules are exported and imported for use between javascript files  now a days bundles will do automatically</p>
+
+
+
