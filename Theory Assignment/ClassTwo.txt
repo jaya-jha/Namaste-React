@@ -31,4 +31,11 @@ Tree Shaking - <p> Removal of dead code in javascript context is called tree sha
     if code modules are exported and imported for use between javascript files  now a days bundles will do automatically</p>
 
 
+Command Used in this lesson 
+npm init
+npm install parcel
+npm instal react
+npm install react-dom
+npx parcel index.html
+
 
