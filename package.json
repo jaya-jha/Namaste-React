@@ -4,6 +4,8 @@
   "description": "namaste-react",
   "main": "App.js",
   "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html",
     "test": "jest"
   },
   "repository": {
@@ -22,9 +24,11 @@
     "react-dom": "^18.2.0"
   },
   "devDependencies": {
+    "@babel/core": "^7.20.12",
+    "babel-plugin-transform-remove-console": "^6.9.4",
     "process": "^0.11.10"
   },
-  "browserlist":[
+  "browserslist": [
     "last 2 versions"
   ]
 }
