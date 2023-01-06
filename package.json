@@ -1,7 +1,7 @@
 {
-  "name": "y",
+  "name": "namaste-react",
   "version": "1.0.0",
-  "description": "This is a live course 2nd class",
+  "description": "namaste-react",
   "main": "App.js",
   "scripts": {
     "test": "jest"
@@ -10,7 +10,7 @@
     "type": "git",
     "url": "git+https://github.com/jaya-jha/Namaste-React.git"
   },
-  "author": "Jaya",
+  "author": "",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/jaya-jha/Namaste-React/issues"
@@ -23,5 +23,8 @@
   },
   "devDependencies": {
     "process": "^0.11.10"
-  }
+  },
+  "browserlist":[
+    "last 2 versions"
+  ]
 }
