@@ -1,27 +1,26 @@
-import React from "react"; 
-import  ReactDOM  from "react-dom/client";
-const heading1 = React.createElement(
-  "h1",
-  {
-    id: "Heading1",
-  },
-  "Heading1"
-);
-const heading2 = React.createElement(
-  "h2",
-  {
-    id: "Heading2",
-  },
-  "Heading2"
-);
+import React from "react";
+import ReactDOM from "react-dom/client";
+import logo from "./assets/logo.jpg";
+import user from "./assets/user.png";
 
-const container = React.createElement(
-  "div",
-  {
-    id: "container",
-  },
-  [heading1, heading2]
-);
+
+  
+// javascript funtion which returns react element 
+// component composition
+const HeaderComponent = () => {
+  return (
+    <div className="header">
+    <img src={logo} className="logo" alt="logo"/>
+    <input className="searchBox" type="text" placeholder="Search"/>
+    <img src={user} className="user" alt="user"/>
+    </div>
+ );
+};
+
+
+ 
+
+
 const root = ReactDOM.createRoot(document.getElementById("root"));
 // passing react element inside root
-root.render(container);
+root.render(<HeaderComponent/>);

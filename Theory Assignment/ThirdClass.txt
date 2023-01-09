@@ -1,0 +1,8 @@
+JSX - JSX is html like syntax which will create react element and react components.
+Superpowers of JSX - Scalablity , Readablity , clean code , developer friendly , Less code
+type attribute indicates the type of script represented .Value of this attribute will be Attribute is not set (default), empty string , javascript MIME type
+{TitleComponent } - This is the representation of react element inside react component when it is normal variable.
+{<TitleComponent></TitleComponent>} - 
+{<TitleComponent/>} -Rendering React component syntax
+<Title/> - Representation of Title component inside another component like Tag same as {Title()} when it is funtional component
+Component composition - Using  one component in to another component 
